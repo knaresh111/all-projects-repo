@@ -1,0 +1,325 @@
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_DBACCESS_DENIED_ERROR',
+  errno: 1044,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_DBACCESS_DENIED_ERROR',
+  errno: 1044,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_DBACCESS_DENIED_ERROR',
+  errno: 1044,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_DBACCESS_DENIED_ERROR',
+  errno: 1044,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_DBACCESS_DENIED_ERROR',
+  errno: 1044,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_DBACCESS_DENIED_ERROR',
+  errno: 1044,
+  sql: undefined,
+  sqlState: '42000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' to database 'prnewsto_db'"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
+Error: Access denied for user 'prnewsto_db'@'localhost' (using password: YES)
+    at PromisePool.execute (/home/prnewsto/nodevenv/Nodejs/20/lib/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at ProductService.<anonymous> (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:23:42)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/services/ProductService.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:4:12)
+    at ProductService.getAllArticles (/home/prnewsto/Nodejs/dist/src/services/ProductService.js:21:16)
+    at ProductController.<anonymous> (/home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:62:60)
+    at Generator.next (<anonymous>)
+    at /home/prnewsto/Nodejs/dist/src/controllers/ProductController.js:8:71 {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sql: undefined,
+  sqlState: '28000',
+  sqlMessage: "Access denied for user 'prnewsto_db'@'localhost' (using password: YES)"
+}
